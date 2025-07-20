@@ -1,0 +1,86 @@
+/* src/Dashboard.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.dashboard {
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.nav-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #333;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem;
+}
+
+p {
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Force 3 columns */
+  gap: 1.5rem;
+}
+
+
+.grid-item {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.grid-item h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.grid-item p {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.play-btn {
+  background-color: #5f27cd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.play-btn:hover {
+  background-color: #341f97;
+}
