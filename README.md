@@ -1,6 +1,6 @@
 # React Login & Signup Interface
 
-This project is a React-based application featuring both **Login** and **Signup** pages for dual roles: **Students** and **Teachers**. It includes modern UI elements and basic authentication form design.
+This project is a React-based application featuring both **Login** and **Signup** pages for dual roles: **Students** and **Teachers**. It includes modern UI elements and basic authentication form design.and it enhance the knowlegde level.
 
 ## 🚀 Features
 
