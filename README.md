@@ -25,21 +25,11 @@ w2/
 │   ├── package.json
 │   └── README.md
 ```
-
-## 🛠️ Getting Started
-
-### Prerequisites
-
-- Node.js and npm installed
-
-### Installation
-
-```bash
-cd my-app
+**Install dependencies**
 npm install
+npm install react-router-dom
+npm install web-vitals
+
+**Run the project**
+
 npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-
