@@ -26,6 +26,7 @@ w2/
 │   └── README.md
 ```
 **Install dependencies**
+
 npm install
 npm install react-router-dom
 npm install web-vitals
