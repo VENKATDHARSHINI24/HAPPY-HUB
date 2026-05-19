@@ -34,3 +34,4 @@ npm install web-vitals
 **Run the project**
 
 npm start
+
